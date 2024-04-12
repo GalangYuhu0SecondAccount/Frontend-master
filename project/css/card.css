@@ -1,0 +1,95 @@
+:root {
+	--clr-bg: hsl(47, 88%, 63%);
+	--clr-white: hsl(0, 0%, 100%);
+	--clr-light-text: hsl(0, 0%, 50%);
+	--clr-dark-text: hsl(0, 0%, 7%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: yellow;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 300px;
+    background-color: aliceblue;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+/* .card >  */.images {
+    /* width: 300px; */
+    display: block;
+	width: 100%;
+	border-radius: 10px;
+	margin-bottom: 1em;
+}
+
+button {
+    padding: 6px;
+    margin-bottom: 10px;
+    background-color: yellow;
+    color: black;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+button:hover {
+    background-color: aliceblue;
+}
+
+.date  {
+    font-size: 10px;
+    margin-bottom: 1rem;
+    font-weight: 600px;
+}
+
+.heading {
+    color: var(--clr-dark-text);
+    font-size: 1rem;
+    font-weight: 500px;
+    margin-bottom: 1rem;
+    transition: color 0.5s;
+    cursor: pointer;
+    transition: color 0.5s;
+}
+
+.heading:hover,
+.heading:active {
+    color: yellow;
+}
+
+p {
+    color: hsl(220, 15%, 55%);
+    font-weight: 900;
+    margin-bottom: 15px; 
+    font-size: 14px;
+}
+
+.card-footer {
+    display: flex;
+    align-items: center;
+}
+
+.card-footer img {
+    width: 40px;
+    /* margin: 4px; */
+}
+
+span {
+    font-size: 10px;
+    margin: 5px;
+}
